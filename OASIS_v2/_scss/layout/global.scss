@@ -1,0 +1,37 @@
+// padrão do site
+html {
+	scroll-behavior: smooth;
+	body {
+		font-size: $font-size;
+		font-family: $font-sec;
+		color: $color-txt-claro;
+		background-color: $bg-site;
+		margin-top: 100px;
+		.title {
+			font-family: $font-main;
+			font-weight: normal;
+			line-height: 1.2em;
+			margin: 0;
+			text-transform: uppercase;
+		}
+		ul {
+			margin: 0;
+			padding: 0;
+			li {
+				list-style: none;
+			}
+		}
+	}
+}
+::-webkit-scrollbar { width: 12px; height: 5px; }
+::-moz-scrollbar { width: 12px; height: 5px; }
+::-ms-scrollbar { width: 12px; height: 5px; }
+::-o-scrollbar { width: 12px; height: 5px; }
+::-webkit-scrollbar-track { background-color: $bg-site-2; }
+::-moz-scrollbar-track { background-color: $bg-site-2; }
+::-ms-scrollbar-track { background-color: $bg-site-2; }
+::-o-scrollbar-track { background-color: $bg-site-2; }
+::-webkit-scrollbar-thumb { background-color: $color-txt-1; }
+::-moz-scrollbar-thumb { background-color: $color-txt-1; }
+::-ms-scrollbar-thumb { background-color: $color-txt-1; }
+::-o-scrollbar-thumb { background-color: $color-txt-1; }

@@ -1,0 +1,49 @@
+//Stats
+#stats {
+	padding: 130px 0 60px;
+	.title {
+		text-align: center;
+		font-size: 5.5em;
+		font-weight: 300;
+	}
+	.text {
+		font-size: 2.5em;
+		font-weight: 300;
+		line-height: 1.2em;
+		text-align: center;
+		padding-bottom: 20px;
+	}
+	.box {
+		border: 1px solid $color-txt-2;
+		background-color: $bg-site-2;
+		border-radius: 3px;
+		padding: 23px 45px;
+		margin: 50px 10%;
+		width: 80%;
+		text-align: center;
+		.grafico {
+			&-title,
+			&-valor {
+				width: 49%;
+				line-height: 1em;
+				margin: 0 0 50px;
+			}
+			&-title {
+				float: left;
+				text-align: left;
+				font-size: 2.6em;
+				color: $color-txt-1;
+				font-weight: 400;
+			}
+			&-valor {
+				float: right;
+				text-align: right;
+				font-family: $font-main;
+				font-size: 3.4em;
+			}
+			&-img {
+				width: 100%;
+			}
+		}
+	}
+}

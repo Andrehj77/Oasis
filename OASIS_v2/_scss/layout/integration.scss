@@ -1,0 +1,21 @@
+//Integration
+#integration {
+	padding: 130px 0 100px;
+	.title {
+		text-align: center;
+		font-size: 5.5em;
+		font-weight: 300;
+	}
+  ul {
+    position: relative;
+    text-align: center;
+    margin-top: 80px;
+    li {
+      display: inline-block;
+      margin: 5px 40px;
+      img {
+        height: 36px;
+      }
+    }
+  }
+}
